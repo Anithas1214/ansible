@@ -11,6 +11,6 @@
 
     - name: print override information
       vars:
-      course: "devops"
+        course: "devops"
       ansible.builtin.debug:
-       msg: "Hi,we are learning {{course}} from trainer {{trainer}}, duration is {{duration}}"   
+        msg: "Hi,we are learning {{course}} from trainer {{trainer}}, duration is {{duration}}"   
