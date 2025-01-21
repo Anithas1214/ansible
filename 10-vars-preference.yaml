@@ -9,7 +9,11 @@
       prompt: enter your wishes here  
   tasks:
     - name: check preference
-      vars:
-       wishes: "morning-from-task-variable"
+      # vars:
+      #  wishes: "morning-from-task-variable"
       ansible.builtin.debug:
         msg: "Hello,Good {{wishes}}"
+
+
+ # 1st - arguments
+ # 2nd - task variables       
