@@ -1,5 +1,5 @@
 - name: nginx server install and run
-  host: web
+  hosts: web
   task:
     - name: install nginx
       ansible.builtin.dnf:
