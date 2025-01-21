@@ -1,4 +1,4 @@
-- name: variable
+- name: variable tasks
   hosts: localhost
   vars:
     course: "ansible"
