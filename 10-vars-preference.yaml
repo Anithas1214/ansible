@@ -4,9 +4,9 @@
     wishes: "morning-from-play-variable"
   # vars_files:
   #   - vars.yaml
-  vars_prompt:
-    - name: wishes
-      prompt: enter your wishes here  
+  # vars_prompt:
+  #   - name: wishes
+  #     prompt: enter your wishes here  
   tasks:
     - name: check preference
       # vars:
@@ -18,3 +18,4 @@
  # 1st - arguments
  # 2nd - task variables 
  # 3rd - file variables      
+ # 4th - prompt
