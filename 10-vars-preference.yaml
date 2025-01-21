@@ -2,8 +2,8 @@
   hosts: localhost
   vars:
     wishes: "morning-from-play-variable"
-  vars_files:
-    - vars.yaml
+  # vars_files:
+  #   - vars.yaml
   vars_prompt:
     - name: wishes
       prompt: enter your wishes here  
@@ -16,4 +16,5 @@
 
 
  # 1st - arguments
- # 2nd - task variables       
+ # 2nd - task variables 
+ # 3rd - file variables      
